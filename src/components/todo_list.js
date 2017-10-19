@@ -1,20 +1,45 @@
-import React from 'react'
+import React,{Component} from 'react'
 import  TodoDetails from './todo_details'
 
-const TodoList = ({ todos, toggleTodo }) => {
-    return(
-        <div className="col-lg-12">
-            <ul className="list-group">
-                {todos.map(todo =>
-                    <TodoDetails
-                        key={todo.id}
-                        {...todo}
-                        onClick={() => toggleTodo(todo.id)}
-                    />
-                )}
-            </ul>
-        </div>
-    )
+class TodoList extends Component {
+
+    constructor(props){
+        super(props);
+
+        this.renderTodoList = this.renderTodoList.bind(this);
+    }
+
+    componentDidMount(){
+        this.props.fetchTodos();
+    }
+
+
+    renderTodoList() {
+        const { todos, toggleTodo, deleteTodo } = this.props;
+
+        if (!todos) {
+            return <div> Add some Ass in here </div>
+        }else{
+             return Object.keys(todos).map(key =>
+                <TodoDetails
+                    key={key}
+                    {...todos[key]}
+                    onClick={() => toggleTodo(key)}
+                    deleteFunc={() => deleteTodo(key)}
+                />
+            )
+        }
+    }
+
+    render() {
+        return (
+            <div className="col-lg-12">
+                <ul className="list-group">
+                    {this.renderTodoList()}
+                </ul>
+            </div>
+        )
+    }
 }
 
 

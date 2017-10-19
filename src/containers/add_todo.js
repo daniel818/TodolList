@@ -26,8 +26,8 @@ class AddTodo extends Component {
 
     onSubmit(values){
         this.props.addTodo(values.title);
+        values.title = '';
 
-        console.log(this.props.addTodo(values.title));
     }
 
     render(){

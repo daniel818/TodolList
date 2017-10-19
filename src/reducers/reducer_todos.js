@@ -1,7 +1,10 @@
 /**
  * Created by Daniel on 27/09/2017.
  */
-import {ADD_TODO,TOGGLE_TODO} from '../actions';
+import {ADD_TODO,TOGGLE_TODO,FETCH_TODOS} from '../actions';
+
+
+
 
 export default function (state = [], action) {
 
@@ -17,10 +20,19 @@ export default function (state = [], action) {
                 }
             ]
 
+        // case TOGGLE_TODO:
+        //     return state.map(todo =>
+        //         (todo.id === action.id) ? {...todo,completed: !todo.completed} :todo
+        //     );
         case TOGGLE_TODO:
-            return state.map(todo =>
-                (todo.id === action.id) ? {...todo,completed: !todo.completed} :todo
-            );
+            Object.keys(state).map(key =>
+                (key === action.id )? state[key].completed= !state[key].completed : state[key]);
+            console.log(state);
+            return state;
+
+        case FETCH_TODOS:
+
+            return action.payload;
         default:
             return state;
     }

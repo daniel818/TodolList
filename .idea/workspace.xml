@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258641aa-218b-453b-93db-45373210c17c" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/todo_details.js" afterPath="$PROJECT_DIR$/src/components/todo_details.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/todo_list.js" afterPath="$PROJECT_DIR$/src/components/todo_list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/add_todo.js" afterPath="$PROJECT_DIR$/src/containers/add_todo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/visible_todo_list.js" afterPath="$PROJECT_DIR$/src/containers/visible_todo_list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/reducer_todos.js" afterPath="$PROJECT_DIR$/src/reducers/reducer_todos.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,8 +25,157 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <folding>
+                <element signature="e#256#471#0" expanded="false" />
+                <element signature="n#!!block;n#toggleTodo#0" expanded="false" />
+                <element signature="n#!!block;n#deleteTodo#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/link.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/todo_list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter_link.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/filter_link.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_todo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/add_todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#44#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visible_todo_list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/visible_todo_list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#44#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer_todos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/reducer_todos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_details.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/todo_details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer_visibility_filter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/reducer_visibility_filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newState</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/todo_list.js" />
+        <option value="$PROJECT_DIR$/src/reducers/reducer_todos.js" />
+        <option value="$PROJECT_DIR$/src/components/todo_details.js" />
+        <option value="$PROJECT_DIR$/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/visible_todo_list.js" />
+        <option value="$PROJECT_DIR$/src/containers/add_todo.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -30,9 +189,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,6 +221,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodolList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -73,6 +331,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,6 +345,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -96,32 +417,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508199798134</updated>
-      <workItem from="1508199799715" duration="193000" />
+      <workItem from="1508199799715" duration="33602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193000" />
+    <option name="totallyTimeSpent" value="33602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30958903" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -133,7 +454,330 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508240072071" expanded="true" signature="188511:188673" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regenerate/-/regenerate-1.3.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="188702:188864" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="188895:189371" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regenerator-transform/-/regenerator-transform-0.10.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="189094:189365" ph="{&quot;babel-runtime&quot;: &quot;https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="189392:189688" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regex-cache/-/regex-cache-0.4.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="189570:189682" ph="{&quot;is-equal-shallow&quot;: &quot;https://registry.npmjs.org/is-equal-shallow/-/is-equal-shallow-0.1.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="189710:190159" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regexpu-core/-/regexpu-core-2.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="189890:190153" ph="{&quot;regenerate&quot;: &quot;https://registry.npmjs.org/regenerate/-/regenerate-1.3.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="190177:190335" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regjsgen/-/regjsgen-0.2.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="190356:190838" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/regjsparser/-/regjsparser-0.1.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="190534:190613" ph="{&quot;jsesc&quot;: &quot;https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="190637:190832" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="190656:190824" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="190873:191065" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="191089:191259" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="191282:191450" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="191469:191740" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/repeating/-/repeating-2.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="191643:191734" ph="{&quot;is-finite&quot;: &quot;https://registry.npmjs.org/is-finite/-/is-finite-1.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="191757:193845" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/request/-/request-2.83.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="191928:193839" ph="{&quot;aws-sign2&quot;: &quot;https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="193868:194036" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="194057:194335" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="194235:194329" ph="{&quot;align-text&quot;: &quot;https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="194354:194514" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ripemd160/-/ripemd160-0.2.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="194535:194699" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="194712:194860" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sax/-/sax-1.2.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="194874:196060" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/send/-/send-0.16.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="195039:196054" ph="{&quot;debug&quot;: &quot;https://registry.npmjs.org/debug/-/debug-2.6.9.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="196081:196837" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/serve-index/-/serve-index-1.9.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="196259:196831" ph="{&quot;accepts&quot;: &quot;https://registry.npmjs.org/accepts/-/accepts-1.3.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="196859:197375" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/serve-static/-/serve-static-1.13.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="197040:197369" ph="{&quot;encodeurl&quot;: &quot;https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="197403:197581" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="197603:197750" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="197774:197944" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="197960:198114" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sha.js/-/sha.js-2.2.6.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="198131:198287" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="198302:198454" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/slash/-/slash-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="198468:198714" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sntp/-/sntp-2.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="198632:198708" ph="{&quot;hoek&quot;: &quot;https://registry.npmjs.org/hoek/-/hoek-4.2.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="198730:199080" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sockjs/-/sockjs-0.3.19.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="198899:199074" ph="{&quot;faye-websocket&quot;: &quot;https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.10.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="199103:200183" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sockjs-client/-/sockjs-client-1.1.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="199285:199786" ph="{&quot;debug&quot;: &quot;https://registry.npmjs.org/debug/-/debug-2.6.9.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="199810:200177" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="199838:200169" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.11.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200039:200159" ph="{&quot;websocket-driver&quot;: &quot;https://registry.npmjs.org/websocket-driver/-/websocket-driver-0.7.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200208:200380" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-list-map/-/source-list-map-0.1.8.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200400:200651" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200557:200645" ph="{&quot;amdefine&quot;: &quot;https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200679:201206" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map-support/-/source-map-support-0.4.18.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200872:200966" ph="{&quot;source-map&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="200990:201200" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="201014:201192" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="201221:202041" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/sshpk/-/sshpk-1.13.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="201388:202035" ph="{&quot;asn1&quot;: &quot;https://registry.npmjs.org/asn1/-/asn1-0.2.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="202059:202217" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/statuses/-/statuses-1.3.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="202244:202629" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/stream-browserify/-/stream-browserify-2.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="202434:202623" ph="{&quot;inherits&quot;: &quot;https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="202651:202817" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/stream-cache/-/stream-cache-0.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="202838:203496" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/stream-http/-/stream-http-2.7.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="203016:203490" ph="{&quot;builtin-status-codes&quot;: &quot;https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="203523:203680" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="203704:203991" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="203888:203985" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="204013:204179" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/stringstream/-/stringstream-0.0.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="204199:204456" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="204356:204450" ph="{&quot;ansi-regex&quot;: &quot;https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="204480:204631" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="204658:204815" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.0.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="204836:205000" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="205017:205174" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tapable/-/tapable-0.1.10.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="205190:205325" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tether/-/tether-1.4.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="205342:205479" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/through/-/through-2.3.8.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="205499:205661" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/time-stamp/-/time-stamp-2.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="205688:205984" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/timers-browserify/-/timers-browserify-2.0.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="205878:205978" ph="{&quot;setimmediate&quot;: &quot;https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="206008:206178" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="206206:206365" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="206388:206556" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/to-iso-string/-/to-iso-string-0.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="206578:206852" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="206758:206846" ph="{&quot;punycode&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="206866:207016" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="207036:207198" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="207222:207392" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tty-browserify/-/tty-browserify-0.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="207414:207697" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="207594:207691" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="207716:207901" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="207921:208197" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-check/-/type-check-0.3.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="208097:208191" ph="{&quot;prelude-ls&quot;: &quot;https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="208218:208382" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="208399:208760" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.15.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="208570:208754" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="208782:208930" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.17.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="208949:209905" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.7.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="209123:209477" ph="{&quot;async&quot;: &quot;https://registry.npmjs.org/async/-/async-0.2.10.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="209501:209899" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="209520:209689" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/async/-/async-0.2.10.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="209713:209891" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="209935:210117" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="210133:210287" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="210300:210874" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url/-/url-0.11.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="210463:210640" ph="{&quot;punycode&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="210664:210868" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="210686:210860" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="210893:211520" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url-parse/-/url-parse-1.1.9.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="211067:211268" ph="{&quot;querystringify&quot;: &quot;https://registry.npmjs.org/querystringify/-/querystringify-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="211292:211514" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="211320:211506" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/querystringify/-/querystringify-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="211534:212021" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/util/-/util-0.10.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="211699:211787" ph="{&quot;inherits&quot;: &quot;https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="211811:212015" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="211833:212007" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="212045:212215" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="212236:212400" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="212414:212564" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid/-/uuid-3.1.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="212578:212728" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vary/-/vary-1.1.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="212744:213194" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/verror/-/verror-1.10.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="212913:213188" ph="{&quot;assert-plus&quot;: &quot;https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="213217:213490" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="213399:213484" ph="{&quot;indexof&quot;: &quot;https://registry.npmjs.org/indexof/-/indexof-0.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="213507:213764" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/warning/-/warning-3.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="213658:213758" ph="{&quot;loose-envify&quot;: &quot;https://registry.npmjs.org/loose-envify/-/loose-envify-1.3.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="213783:214431" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/watchpack/-/watchpack-0.2.9.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="213957:214206" ph="{&quot;async&quot;: &quot;https://registry.npmjs.org/async/-/async-0.9.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="214230:214425" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="214249:214417" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/async/-/async-0.9.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="214459:214637" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="214654:216663" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webpack/-/webpack-1.15.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="214825:216104" ph="{&quot;acorn&quot;: &quot;https://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="216128:216657" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="216147:216315" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="216343:216649" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/supports-color/-/supports-color-3.2.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="216543:216639" ph="{&quot;has-flag&quot;: &quot;https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="216685:217066" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webpack-core/-/webpack-core-0.6.9.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="216865:217060" ph="{&quot;source-list-map&quot;: &quot;https://registry.npmjs.org/source-list-map/-/source-list-map-0.1.8.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="217098:218193" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webpack-dev-middleware/-/webpack-dev-middleware-1.12.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="217299:217740" ph="{&quot;memory-fs&quot;: &quot;https://registry.npmjs.org/memory-fs/-/memory-fs-0.4.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="217764:218187" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="217977:218169" ph="{&quot;errno&quot;: &quot;https://registry.npmjs.org/errno/-/errno-0.1.4.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="218221:220027" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-1.16.5.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="218414:219655" ph="{&quot;compression&quot;: &quot;https://registry.npmjs.org/compression/-/compression-1.7.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="219679:220021" ph="{...}" />
+            <marker date="1508240072071" expanded="true" signature="219707:220013" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/supports-color/-/supports-color-3.2.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="219907:220003" ph="{&quot;has-flag&quot;: &quot;https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="220053:220450" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/websocket-driver/-/websocket-driver-0.7.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="220222:220444" ph="{&quot;http-parser-js&quot;: &quot;https://registry.npmjs.org/http-parser-js/-/http-parser-js-0.4.9.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="220480:220643" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/websocket-extensions/-/websocket-extensions-0.1.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="220665:220812" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.9.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="220832:221200" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-url/-/whatwg-url-2.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="221008:221194" ph="{&quot;tr46&quot;: &quot;https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="221221:221385" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="221403:221561" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="221577:221712" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="221740:221918" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-2.0.1.tgz&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="221942:222120" ph="{&quot;version&quot;: &quot;1.8.0&quot;...}" />
+            <marker date="1508240072071" expanded="true" signature="222135:222287" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/filter_link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo_details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/todo_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/visible_todo_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="e#256#471#0" expanded="false" />
+            <element signature="n#!!block;n#toggleTodo#0" expanded="false" />
+            <element signature="n#!!block;n#deleteTodo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducer_visibility_filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducer_todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/add_todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#44#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
