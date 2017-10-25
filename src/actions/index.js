@@ -70,9 +70,7 @@ export function deleteTodo(key,user) {
 }
 
 export function addUser(user){
-    return dispatch => fb.child(user.uid).set({
-        name : user.displayName,
-    })
+    return dispatch => fb.child(user.uid).set({})
 }
 
 export function fetchUsers() {

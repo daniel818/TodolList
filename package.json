@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Todo List",
   "main": "index.js",
+  "homepage": "https://daniel818.github.io/TodoList/",
   "repository": "git@github.com:daniel818/TodoList.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
