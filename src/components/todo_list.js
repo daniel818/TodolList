@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import  TodoDetails from './todo_details'
+import firebase from 'firebase';
 
 class TodoList extends Component {
 
@@ -10,9 +11,9 @@ class TodoList extends Component {
     }
 
     componentDidMount(){
-        this.props.fetchTodos();
+        this.props.fetchTodos(this.props.userObj);
+        console.log(this.props.userObj.uid + ' Did mount todos of current user ');
     }
-
 
     renderTodoList() {
         const { todos, toggleTodo, deleteTodo } = this.props;
@@ -24,8 +25,8 @@ class TodoList extends Component {
                 <TodoDetails
                     key={key}
                     {...todos[key]}
-                    onClick={() => toggleTodo(key)}
-                    deleteFunc={() => deleteTodo(key)}
+                    onClick={() => toggleTodo(key,this.props.userObj)}
+                    deleteFunc={() => deleteTodo(key,this.props.userObj)}
                 />
             )
         }
@@ -35,7 +36,7 @@ class TodoList extends Component {
         return (
             <div className="col-lg-12">
                 <ul className="list-group">
-                    {this.renderTodoList()}
+                    { this.renderTodoList() }
                 </ul>
             </div>
         )

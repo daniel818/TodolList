@@ -2,7 +2,7 @@
  * Created by Daniel on 16/10/2017.
  */
 import { connect } from 'react-redux'
-import { toggleTodo,fetchTodos,deleteTodo } from '../actions'
+import { toggleTodo,fetchTodos,deleteTodo ,addUser} from '../actions'
 import TodoList from '../components/todo_list'
 
 
@@ -38,4 +38,4 @@ function mapStateToPropS(state) {
     }
 }
 
-export default connect(mapStateToPropS,{toggleTodo,fetchTodos,deleteTodo})(TodoList);
+export default connect(mapStateToPropS,{toggleTodo,fetchTodos,deleteTodo,addUser})(TodoList);

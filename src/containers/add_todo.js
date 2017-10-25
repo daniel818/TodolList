@@ -5,27 +5,36 @@ import React,{Component} from 'react';
 import {connect} from 'react-redux';
 import {Field, reduxForm} from 'redux-form';
 import {addTodo} from '../actions'
+import {currentUser} from '../actions';
 
 class AddTodo extends Component {
+
+    constructor(props){
+        super(props);
+
+
+
+    }
 
     renderField(field){
         const {meta: {touched ,error}} = field;
 
         return (
             <div>
+                {touched? error : ""}
                 <input
                     type="text"
                     className="form-control"
                     {...field.input}
                 />
-                {touched? error : ""}
             </div>
         )
-
     }
 
     onSubmit(values){
-        this.props.addTodo(values.title);
+        const currentUser = this.props.userObj;
+        console.log(currentUser);
+        this.props.addTodo(values.title,currentUser);
         values.title = '';
 
     }
