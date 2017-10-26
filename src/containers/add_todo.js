@@ -11,9 +11,6 @@ class AddTodo extends Component {
 
     constructor(props){
         super(props);
-
-
-
     }
 
     renderField(field){

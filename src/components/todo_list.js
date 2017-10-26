@@ -1,6 +1,5 @@
 import React,{Component} from 'react'
 import  TodoDetails from './todo_details'
-import firebase from 'firebase';
 
 class TodoList extends Component {
 
@@ -12,7 +11,6 @@ class TodoList extends Component {
 
     componentDidMount(){
         this.props.fetchTodos(this.props.userObj);
-        console.log(this.props.userObj.uid + ' Did mount todos of current user ');
     }
 
     renderTodoList() {

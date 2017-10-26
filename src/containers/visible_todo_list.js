@@ -10,6 +10,7 @@ const getVisibleTodos = (todos,filter) => {
     switch(filter){
         case "SHOW_ALL":
             return todos
+
         case "SHOW_COMPLETED":
             return Object.keys(todos).reduce((ans, key)=>{
                 if(todos[key].completed){

@@ -7,6 +7,7 @@ import AddTodo from '../containers/add_todo'
 import VisibleTodoList from '../containers/visible_todo_list'
 import {connect} from 'react-redux'
 import {addUser,fetchUsers} from '../actions';
+import {Avatar} from 'rebass';
 
 class Login extends Component{
     constructor(props){
@@ -26,7 +27,6 @@ class Login extends Component{
             .then(()=>{
                 firebase.auth().onAuthStateChanged((user = false) =>{
                     if(user){
-
                       if(!this.props.users.hasOwnProperty(user.uid)){
                           this.props.addUser(user);
                       }
@@ -59,7 +59,10 @@ class Login extends Component{
     renderTodos(){
         return(
             <div>
-                <div>
+                <div className="jumbotron">
+                    <h1>Todo List
+                        <Avatar size={72} src={this.state.user.photoURL}/>
+                    </h1>
                     <h2>Welcome {this.state.user.displayName}</h2>
                 </div>
                 <AddTodo userObj={this.state.user}/>
